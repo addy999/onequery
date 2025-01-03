@@ -1,0 +1,12 @@
+playwright
+anthropic
+pillow
+datasets
+BaseModel
+huggingface_hub
+transformers
+beautifulsoup4
+gradio_client
+sentence_transformers
+scikit-learn
+faiss-cpu

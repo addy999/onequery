@@ -1,0 +1,29 @@
+{
+  "events": [
+    {
+      "name": "Sonu Nigam Live in Concert",
+      "date": "Sun, 23 Feb",
+      "location": "Phoenix Marketcity, Bengaluru"
+    },
+    {
+      "name": "Rambo Circus - Olympian Circus",
+      "date": "Sat, 11 Jan onwards",
+      "location": "Olympian circus, J.P nagar"
+    },
+    {
+      "name": "Anubhav Singh Bassi Stand-up Comedy",
+      "date": "Sat, 4 Jan onwards",
+      "location": "St. John's Auditorium"
+    },
+    {
+      "name": "Aakash Gupta - Daily Ka Kaam Hai",
+      "date": "This Weekend",
+      "location": "Prestige Centre"
+    },
+    {
+      "name": "Japan Habba",
+      "date": "This Weekend",
+      "location": "Phoenix Marketcity, Bengaluru"
+    }
+  ]
+}
