@@ -15,6 +15,11 @@
 - Install OmniParser
   - For webpage analysis, we use the [OmniParser](https://huggingface.co/spaces/microsoft/OmniParser) model from Hugging Face. You'll need to host it via an [API](https://github.com/addy999/omniparser-api) locally.
 
+## Examples
+
+- [Finding issues on a github repo](./examples/repo-issues.mp4)
+- [Finding live events](./examples/events-in-bangalore.webm)
+
 ## Usage
 
 ### General query with no source to start with
