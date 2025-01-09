@@ -64,11 +64,10 @@ def get_reply(state, mode="deepseek") -> str:
     if mode == "ollama":
         reply = (
             completion(
-                model="ollama/llama3.1:8b",
+                model="ollama/llama3.3",
                 max_tokens=256,
                 messages=[{"role": "system", "content": SYSTEM_PROMPT}] + state,
                 temperature=0.3,
-                base_url="https://ollama-runner.fly.dev",  # GPU
             )
             .choices[0]
             .message.content
