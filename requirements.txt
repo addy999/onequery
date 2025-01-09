@@ -12,4 +12,3 @@ sentence_transformers
 scikit-learn
 faiss-cpu
 rich
-fastapi
