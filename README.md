@@ -10,6 +10,10 @@
 
 - Requirements: `pip install -r requirements.txt`
 - Install browser: `python -m playwright install`
+  - This project uses Playwright to control the browser. You can install the browser of your choice using the command above.
+- Write your environment variables in a `.env` file (see `.env.test`)
+- Install OmniParser
+  - For webpage analysis, we use the [OmniParser](https://huggingface.co/spaces/microsoft/OmniParser) model from Hugging Face. You'll need to host it via an [API](https://github.com/addy999/omniparser-api) locally.
 
 ## Usage
 
@@ -82,6 +86,18 @@ response = requests.post(url, json=payload)
 print(response.status_code)
 print(response.json())
 ```
+
+> 💡 **Tip:** For a hosted solution with a lightning fast Zig based browser, worldwide proxy support, and job queuing system, check out [onequery.app](https://www.onequery.app).
+
+## Testing
+
+In the works
+
+## Status
+
+- ✅ Basic functionality
+- 🛠️ Testing
+- 🛠️ Documentation
 
 ## Architecture
 
