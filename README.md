@@ -17,8 +17,13 @@
 
 ## Examples
 
-- [Finding issues on a github repo](./examples/repo-issues.mp4)
-- [Finding live events](./examples/events-in-bangalore.webm)
+- Finding issues on a github repo
+
+[![Video Demo 1](http://img.youtube.com/vi/a_QPDnAosKM/0.jpg)](https://youtu.be/a_QPDnAosKM?si=pXtZgrRlvXzii7FX "Finding issues on a GitHub repo")
+  
+- Finding live events
+
+[![Video Demo 2](http://img.youtube.com/vi/sp_YuZ1Q4wU/0.jpg)](https://youtu.be/sp_YuZ1Q4wU?feature=shared "Finding live events")
 
 ## Usage
 
