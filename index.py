@@ -5,11 +5,13 @@ import faiss
 import json
 import os
 
+model_name = "all-MiniLM-L6-v2"  # "all-MiniLM-L6-v2"
+model = SentenceTransformer(model_name, local_files_only=True)
+dimension = model.get_sentence_embedding_dimension()
+
 
 class RAGSystem:
-    def __init__(
-        self, model_name: str = "all-MiniLM-L6-v2", index_path: str = "rag_index"
-    ):
+    def __init__(self, index_path: str = "rag_index"):
         """
         Initialize the RAG system with a sentence transformer model and storage paths.
 
@@ -17,9 +19,9 @@ class RAGSystem:
             model_name: The name of the sentence transformer model to use
             index_path: Directory to store the FAISS index and documents
         """
-        self.encoder = SentenceTransformer(model_name)
+        self.encoder = model
         self.index_path = index_path
-        self.dimension = self.encoder.get_sentence_embedding_dimension()
+        self.dimension = dimension
 
         # Initialize FAISS index
         self.index = faiss.IndexFlatIP(self.dimension)  # Inner product index
