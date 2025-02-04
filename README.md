@@ -2,7 +2,6 @@
 
 [![GitHub License](https://img.shields.io/github/license/addy999/onequery)](https://github.com/addy999/onequery/blob/main/LICENSE)
 [![GitHub Last Commit](https://img.shields.io/github/last-commit/addy999/onequery)](https://github.com/addy999/onequery/commits/main)
-[![Buy Me a Coffee](https://img.shields.io/badge/buy%20me%20a%20coffee-donate-yellow)](https://buymeacoffee.com/adibhatia)
 
 > 🔨 **Note:** This repository is still in development. Contributions and feedback are welcome!
 
@@ -129,6 +128,9 @@ graph TD;
 
 ### Stack
 
-- Browser: Puppeteer
-- Parser: [OmniParser](https://huggingface.co/spaces/microsoft/OmniParser)
-- WebLlama: https://webllama.github.io/
+- Browser: [Playwright](https://github.com/microsoft/playwright-python)
+- VLLM: [OmniParser](https://github.com/addy999/omniparser-api)
+
+
+## Alternatives
+- https://github.com/CognosysAI/browser/
